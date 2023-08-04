@@ -5,7 +5,8 @@ Introduction
 The goal of this project is to develop a robust image classification model that can correctly classify handwritten alphabet characters. The project is divided into three main phases: dataset preparation, model building, and web application development.
 
 Dataset
-The dataset consists of 26 folders, each containing labeled images of a specific alphabet character. Images were preprocessed to enhance their quality and prepare them for model training. The preprocessed images were then split into training and testing sets to evaluate model performance.
+Preprocess the MNIST image data and convert it into a pandas data frame. This step involves reading the image files, handling any missing or corrupted data, and transforming the images into numerical vectors suitable for machine learning.
+
 
 Model Building
 Four machine learning algorithms were used to construct the classification models:
@@ -19,7 +20,7 @@ Each model was trained and evaluated using accuracy as a primary metric. Model s
 Web Application
 An interactive web application was developed using Streamlit, allowing users to upload handwritten alphabet images and obtain real-time predictions from the selected model. Users can choose their preferred model from the available options and visualize the model's prediction on the uploaded image.
 
-[![Watch the Video]](https://drive.google.com/file/d/1HQpVnfcve3MmK928N9u0qSo9jqRvLu9Q/view?usp=sharing)
+[[Streamlit web application]](https://drive.google.com/file/d/1HQpVnfcve3MmK928N9u0qSo9jqRvLu9Q/view?usp=sharing)
 
 Usage
 Run the Streamlit app: streamlit run app.py
